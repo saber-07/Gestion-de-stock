@@ -1,0 +1,28 @@
+<?php
+
+	declare(strict_types=1);
+
+	require "include/functions.inc.php";
+	
+	$ip = $_SERVER['REMOTE_ADDR'];
+	
+	$title = "DStocKOIN";
+	$keywords = "dstockoin, abcd";
+	$content = "Page d'accueil du site MooZeeQ";
+	
+	include ("include/header.inc.php");
+	
+?>
+		<main>
+			<section class="section-accueil">
+				<h2 class="h2-accueil">Tous les produits</h2>
+				<p class="p-details">Dans ce site vous pouvez en tant qu'administrateur effectuer des commandes en comparant
+				les prix des produits, et en programmant les livraisons. Aussi vous pouvez consulter les livraisons prévues
+				et les commandes effectuées ainsi que le stock de la Base de données de DStocKoin</p>
+			</section>
+		</main>
+		<?php
+		
+			include ("include/footer.inc.php");
+				
+		?>
