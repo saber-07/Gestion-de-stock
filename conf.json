@@ -1,0 +1,13 @@
+{
+    "psql":{
+        "host":"postgresql-saber07.alwaysdata.net", 
+        "database":"saber07_gestion_de_stock", 
+        "user":"saber07_gs",
+        "password":"Gestion2Stock"
+    },
+
+    "socket":{
+        "ip":"127.0.0.1",
+        "port":"5005"
+    }
+}

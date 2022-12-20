@@ -1,0 +1,557 @@
+Start testing: Dec 01 17:18 CET
+----------------------------------------------------------
+1/24 Testing: test1
+1/24 Test: test1
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test1" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test1: No such file or directory
+ERROR: "test1 " exited with non-zero exit status: 127
+ERROR: "test1 " (test1) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1.expected' testSubDir/test1.test/test1.out
+cp "testSubDir/test1.test/test1.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test1Formatted: No such file or directory
+ERROR: "test1Formatted plain" exited with non-zero exit status: 127
+ERROR: "test1Formatted plain" (test1Formatted_plain) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_plain.expected' testSubDir/test1.test/test1Formatted_plain.out
+cp "testSubDir/test1.test/test1Formatted_plain.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_plain.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test1Formatted: No such file or directory
+ERROR: "test1Formatted spaced" exited with non-zero exit status: 127
+ERROR: "test1Formatted spaced" (test1Formatted_spaced) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_spaced.expected' testSubDir/test1.test/test1Formatted_spaced.out
+cp "testSubDir/test1.test/test1Formatted_spaced.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_spaced.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test1Formatted: No such file or directory
+ERROR: "test1Formatted pretty" exited with non-zero exit status: 127
+ERROR: "test1Formatted pretty" (test1Formatted_pretty) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_pretty.expected' testSubDir/test1.test/test1Formatted_pretty.out
+cp "testSubDir/test1.test/test1Formatted_pretty.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_pretty.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test1Formatted: No such file or directory
+ERROR: "test1Formatted spaced pretty" exited with non-zero exit status: 127
+ERROR: "test1Formatted spaced pretty" (test1Formatted_spaced_pretty) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_spaced_pretty.expected' testSubDir/test1.test/test1Formatted_spaced_pretty.out
+cp "testSubDir/test1.test/test1Formatted_spaced_pretty.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_spaced_pretty.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test1Formatted: No such file or directory
+ERROR: "test1Formatted spaced pretty pretty_tab" exited with non-zero exit status: 127
+ERROR: "test1Formatted spaced pretty pretty_tab" (test1Formatted_spaced_pretty_pretty_tab) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_spaced_pretty_pretty_tab.expected' testSubDir/test1.test/test1Formatted_spaced_pretty_pretty_tab.out
+cp "testSubDir/test1.test/test1Formatted_spaced_pretty_pretty_tab.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test1Formatted_spaced_pretty_pretty_tab.expected"
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"test1" end time: Dec 01 17:18 CET
+"test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/24 Testing: test2
+2/24 Test: test2
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test2" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test2: No such file or directory
+ERROR: "test2 " exited with non-zero exit status: 127
+ERROR: "test2 " (test2) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2.expected' testSubDir/test2.test/test2.out
+cp "testSubDir/test2.test/test2.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test2Formatted: No such file or directory
+ERROR: "test2Formatted plain" exited with non-zero exit status: 127
+ERROR: "test2Formatted plain" (test2Formatted_plain) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_plain.expected' testSubDir/test2.test/test2Formatted_plain.out
+cp "testSubDir/test2.test/test2Formatted_plain.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_plain.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test2Formatted: No such file or directory
+ERROR: "test2Formatted spaced" exited with non-zero exit status: 127
+ERROR: "test2Formatted spaced" (test2Formatted_spaced) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_spaced.expected' testSubDir/test2.test/test2Formatted_spaced.out
+cp "testSubDir/test2.test/test2Formatted_spaced.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_spaced.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test2Formatted: No such file or directory
+ERROR: "test2Formatted pretty" exited with non-zero exit status: 127
+ERROR: "test2Formatted pretty" (test2Formatted_pretty) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_pretty.expected' testSubDir/test2.test/test2Formatted_pretty.out
+cp "testSubDir/test2.test/test2Formatted_pretty.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_pretty.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test2Formatted: No such file or directory
+ERROR: "test2Formatted spaced pretty" exited with non-zero exit status: 127
+ERROR: "test2Formatted spaced pretty" (test2Formatted_spaced_pretty) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_spaced_pretty.expected' testSubDir/test2.test/test2Formatted_spaced_pretty.out
+cp "testSubDir/test2.test/test2Formatted_spaced_pretty.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_spaced_pretty.expected"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test2Formatted: No such file or directory
+ERROR: "test2Formatted spaced pretty pretty_tab" exited with non-zero exit status: 127
+ERROR: "test2Formatted spaced pretty pretty_tab" (test2Formatted_spaced_pretty_pretty_tab) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_spaced_pretty_pretty_tab.expected' testSubDir/test2.test/test2Formatted_spaced_pretty_pretty_tab.out
+cp "testSubDir/test2.test/test2Formatted_spaced_pretty_pretty_tab.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test2Formatted_spaced_pretty_pretty_tab.expected"
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"test2" end time: Dec 01 17:18 CET
+"test2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/24 Testing: test4
+3/24 Test: test4
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test4.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test4" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test4: No such file or directory
+ERROR: "test4 /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test4 /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test4) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test4.expected' testSubDir/test4.test/test4.out
+cp "testSubDir/test4.test/test4.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test4.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test4" end time: Dec 01 17:18 CET
+"test4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/24 Testing: testReplaceExisting
+4/24 Test: testReplaceExisting
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/testReplaceExisting.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"testReplaceExisting" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/testReplaceExisting: No such file or directory
+ERROR: "testReplaceExisting /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "testReplaceExisting /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (testReplaceExisting) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/testReplaceExisting.expected' testSubDir/testReplaceExisting.test/testReplaceExisting.out
+cp "testSubDir/testReplaceExisting.test/testReplaceExisting.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/testReplaceExisting.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"testReplaceExisting" end time: Dec 01 17:18 CET
+"testReplaceExisting" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/24 Testing: test_cast
+5/24 Test: test_cast
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_cast.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_cast" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_cast: No such file or directory
+ERROR: "test_cast /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_cast /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_cast) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_cast.expected' testSubDir/test_cast.test/test_cast.out
+cp "testSubDir/test_cast.test/test_cast.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_cast.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_cast" end time: Dec 01 17:18 CET
+"test_cast" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/24 Testing: test_charcase
+6/24 Test: test_charcase
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_charcase.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_charcase" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_charcase: No such file or directory
+ERROR: "test_charcase /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_charcase /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_charcase) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_charcase.expected' testSubDir/test_charcase.test/test_charcase.out
+cp "testSubDir/test_charcase.test/test_charcase.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_charcase.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_charcase" end time: Dec 01 17:18 CET
+"test_charcase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/24 Testing: test_compare
+7/24 Test: test_compare
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_compare.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_compare" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_compare: No such file or directory
+ERROR: "test_compare /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_compare /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_compare) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_compare.expected' testSubDir/test_compare.test/test_compare.out
+cp "testSubDir/test_compare.test/test_compare.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_compare.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_compare" end time: Dec 01 17:18 CET
+"test_compare" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/24 Testing: test_deep_copy
+8/24 Test: test_deep_copy
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_deep_copy.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_deep_copy" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_deep_copy: No such file or directory
+ERROR: "test_deep_copy /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_deep_copy /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_deep_copy) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_deep_copy.expected' testSubDir/test_deep_copy.test/test_deep_copy.out
+cp "testSubDir/test_deep_copy.test/test_deep_copy.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_deep_copy.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_deep_copy" end time: Dec 01 17:18 CET
+"test_deep_copy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/24 Testing: test_double_serializer
+9/24 Test: test_double_serializer
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_double_serializer.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_double_serializer" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_double_serializer: No such file or directory
+ERROR: "test_double_serializer /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_double_serializer /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_double_serializer) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_double_serializer.expected' testSubDir/test_double_serializer.test/test_double_serializer.out
+cp "testSubDir/test_double_serializer.test/test_double_serializer.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_double_serializer.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_double_serializer" end time: Dec 01 17:18 CET
+"test_double_serializer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/24 Testing: test_float
+10/24 Test: test_float
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_float.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_float" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_float: No such file or directory
+ERROR: "test_float /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_float /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_float) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_float.expected' testSubDir/test_float.test/test_float.out
+cp "testSubDir/test_float.test/test_float.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_float.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_float" end time: Dec 01 17:18 CET
+"test_float" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/24 Testing: test_int_add
+11/24 Test: test_int_add
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_int_add.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_int_add" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_int_add: No such file or directory
+ERROR: "test_int_add /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_int_add /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_int_add) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_int_add.expected' testSubDir/test_int_add.test/test_int_add.out
+cp "testSubDir/test_int_add.test/test_int_add.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_int_add.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_int_add" end time: Dec 01 17:18 CET
+"test_int_add" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/24 Testing: test_int_get
+12/24 Test: test_int_get
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_int_get.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_int_get" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_int_get: No such file or directory
+ERROR: "test_int_get /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_int_get /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_int_get) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_int_get.expected' testSubDir/test_int_get.test/test_int_get.out
+cp "testSubDir/test_int_get.test/test_int_get.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_int_get.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_int_get" end time: Dec 01 17:18 CET
+"test_int_get" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/24 Testing: test_locale
+13/24 Test: test_locale
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_locale.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_locale" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_locale: No such file or directory
+ERROR: "test_locale /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_locale /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_locale) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_locale.expected' testSubDir/test_locale.test/test_locale.out
+cp "testSubDir/test_locale.test/test_locale.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_locale.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_locale" end time: Dec 01 17:18 CET
+"test_locale" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/24 Testing: test_null
+14/24 Test: test_null
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_null.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_null" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_null: No such file or directory
+ERROR: "test_null /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_null /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_null) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_null.expected' testSubDir/test_null.test/test_null.out
+cp "testSubDir/test_null.test/test_null.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_null.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_null" end time: Dec 01 17:18 CET
+"test_null" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/24 Testing: test_parse
+15/24 Test: test_parse
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_parse.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_parse" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_parse: No such file or directory
+ERROR: "test_parse /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_parse /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_parse) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_parse.expected' testSubDir/test_parse.test/test_parse.out
+cp "testSubDir/test_parse.test/test_parse.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_parse.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse" end time: Dec 01 17:18 CET
+"test_parse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/24 Testing: test_parse_int64
+16/24 Test: test_parse_int64
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_parse_int64.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_parse_int64" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_parse_int64: No such file or directory
+ERROR: "test_parse_int64 /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_parse_int64 /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_parse_int64) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_parse_int64.expected' testSubDir/test_parse_int64.test/test_parse_int64.out
+cp "testSubDir/test_parse_int64.test/test_parse_int64.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_parse_int64.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_parse_int64" end time: Dec 01 17:18 CET
+"test_parse_int64" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/24 Testing: test_printbuf
+17/24 Test: test_printbuf
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_printbuf.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_printbuf" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_printbuf: No such file or directory
+ERROR: "test_printbuf /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_printbuf /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_printbuf) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_printbuf.expected' testSubDir/test_printbuf.test/test_printbuf.out
+cp "testSubDir/test_printbuf.test/test_printbuf.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_printbuf.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_printbuf" end time: Dec 01 17:18 CET
+"test_printbuf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/24 Testing: test_set_serializer
+18/24 Test: test_set_serializer
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_set_serializer.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_set_serializer" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_set_serializer: No such file or directory
+ERROR: "test_set_serializer /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_set_serializer /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_set_serializer) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_set_serializer.expected' testSubDir/test_set_serializer.test/test_set_serializer.out
+cp "testSubDir/test_set_serializer.test/test_set_serializer.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_set_serializer.expected"
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"test_set_serializer" end time: Dec 01 17:18 CET
+"test_set_serializer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/24 Testing: test_set_value
+19/24 Test: test_set_value
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_set_value.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_set_value" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_set_value: No such file or directory
+ERROR: "test_set_value /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_set_value /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_set_value) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_set_value.expected' testSubDir/test_set_value.test/test_set_value.out
+cp "testSubDir/test_set_value.test/test_set_value.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_set_value.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_set_value" end time: Dec 01 17:18 CET
+"test_set_value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/24 Testing: test_strerror
+20/24 Test: test_strerror
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_strerror.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_strerror" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_strerror: No such file or directory
+ERROR: "test_strerror /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_strerror /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_strerror) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_strerror.expected' testSubDir/test_strerror.test/test_strerror.out
+cp "testSubDir/test_strerror.test/test_strerror.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_strerror.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_strerror" end time: Dec 01 17:18 CET
+"test_strerror" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/24 Testing: test_util_file
+21/24 Test: test_util_file
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_util_file.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_util_file" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_util_file: No such file or directory
+ERROR: "test_util_file /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_util_file /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_util_file) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_util_file.expected' testSubDir/test_util_file.test/test_util_file.out
+cp "testSubDir/test_util_file.test/test_util_file.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_util_file.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_util_file" end time: Dec 01 17:18 CET
+"test_util_file" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/24 Testing: test_visit
+22/24 Test: test_visit
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_visit.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_visit" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_visit: No such file or directory
+ERROR: "test_visit /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_visit /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_visit) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_visit.expected' testSubDir/test_visit.test/test_visit.out
+cp "testSubDir/test_visit.test/test_visit.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_visit.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_visit" end time: Dec 01 17:18 CET
+"test_visit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/24 Testing: test_object_iterator
+23/24 Test: test_object_iterator
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_object_iterator.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_object_iterator" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_object_iterator: No such file or directory
+ERROR: "test_object_iterator /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_object_iterator /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_object_iterator) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_object_iterator.expected' testSubDir/test_object_iterator.test/test_object_iterator.out
+cp "testSubDir/test_object_iterator.test/test_object_iterator.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_object_iterator.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_object_iterator" end time: Dec 01 17:18 CET
+"test_object_iterator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/24 Testing: test_json_pointer
+24/24 Test: test_json_pointer
+Command: "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_json_pointer.test"
+Directory: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests
+"test_json_pointer" start time: Dec 01 17:18 CET
+Output:
+----------------------------------------------------------
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 13: test: /Users/saber07/Desktop/projet: binary operator expected
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test-defs.sh: line 114: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/tests/test_json_pointer: No such file or directory
+ERROR: "test_json_pointer /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" exited with non-zero exit status: 127
+ERROR: "test_json_pointer /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests" (test_json_pointer) failed (set VERBOSE=1 to see full output):
++ diff '/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_json_pointer.expected' testSubDir/test_json_pointer.test/test_json_pointer.out
+cp "testSubDir/test_json_pointer.test/test_json_pointer.out" "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c/tests/test_json_pointer.expected"
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"test_json_pointer" end time: Dec 01 17:18 CET
+"test_json_pointer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 01 17:18 CET

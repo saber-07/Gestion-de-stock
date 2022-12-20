@@ -1,0 +1,239 @@
+Determining if the include file endian.h exists failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rIo4EQ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8824a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8824a.dir/build.make CMakeFiles/cmTC_8824a.dir/build
+Building C object CMakeFiles/cmTC_8824a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_8824a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8824a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8824a.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rIo4EQ/CheckIncludeFile.c"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rIo4EQ/CheckIncludeFile.c:1:10: fatal error: 'endian.h' file not found
+#include <endian.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8824a.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_8824a/fast] Error 2
+
+
+
+Determining if the _isnan exist failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-QQ2zdk
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a08f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7a08f.dir/build.make CMakeFiles/cmTC_7a08f.dir/build
+Building C object CMakeFiles/cmTC_7a08f.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_7a08f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_7a08f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_7a08f.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-QQ2zdk/CheckSymbolExists.c"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-QQ2zdk/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_isnan'
+  return ((int*)(&_isnan))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7a08f.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_7a08f/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _isnan
+  return ((int*)(&_isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _finite exist failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zvu4qn
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a97f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0a97f.dir/build.make CMakeFiles/cmTC_0a97f.dir/build
+Building C object CMakeFiles/cmTC_0a97f.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_0a97f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0a97f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0a97f.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zvu4qn/CheckSymbolExists.c"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zvu4qn/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_finite'
+  return ((int*)(&_finite))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_0a97f.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_0a97f/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _finite
+  return ((int*)(&_finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _doprnt exist failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3OhGV6
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d0ef/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6d0ef.dir/build.make CMakeFiles/cmTC_6d0ef.dir/build
+Building C object CMakeFiles/cmTC_6d0ef.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_6d0ef.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_6d0ef.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6d0ef.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3OhGV6/CheckSymbolExists.c"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3OhGV6/CheckSymbolExists.c:8:19: error: use of undeclared identifier '_doprnt'; did you mean 'fdopen'?
+  return ((int*)(&_doprnt))[argc];
+                  ^~~~~~~
+                  fdopen
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdio.h:210:7: note: 'fdopen' declared here
+FILE    *fdopen(int, const char *) __DARWIN_ALIAS_STARTING(__MAC_10_6, __IPHONE_2_0, __DARWIN_ALIAS(fdopen));
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6d0ef.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_6d0ef/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _doprnt
+  return ((int*)(&_doprnt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the uselocale exist failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-BKrrlo
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3c6ef/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3c6ef.dir/build.make CMakeFiles/cmTC_3c6ef.dir/build
+Building C object CMakeFiles/cmTC_3c6ef.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_3c6ef.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_3c6ef.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_3c6ef.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-BKrrlo/CheckSymbolExists.c"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-BKrrlo/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'uselocale'; did you mean 'setlocale'?
+  return ((int*)(&uselocale))[argc];
+                  ^~~~~~~~~
+                  setlocale
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/locale.h:53:8: note: 'setlocale' declared here
+char            *setlocale(int, const char *);
+                 ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3c6ef.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_3c6ef/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uselocale
+  return ((int*)(&uselocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrandom exist failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ppt1Tn
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_64928/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_64928.dir/build.make CMakeFiles/cmTC_64928.dir/build
+Building C object CMakeFiles/cmTC_64928.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_64928.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_64928.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_64928.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ppt1Tn/CheckSymbolExists.c"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ppt1Tn/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'getrandom'
+  return ((int*)(&getrandom))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_64928.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_64928/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/random.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrandom
+  return ((int*)(&getrandom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAS_GNU_WARNING_LONG failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GLPJsw
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bf508/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bf508.dir/build.make CMakeFiles/cmTC_bf508.dir/build
+Building C object CMakeFiles/cmTC_bf508.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAS_GNU_WARNING_LONG -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_bf508.dir/src.c.o -MF CMakeFiles/cmTC_bf508.dir/src.c.o.d -o CMakeFiles/cmTC_bf508.dir/src.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GLPJsw/src.c"
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GLPJsw/src.c:3:9: warning: missing terminating '"' character [-Winvalid-pp-token]
+__asm__(".section .gnu.json_object_get
+        ^
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GLPJsw/src.c:3:9: error: expected string literal in 'asm'
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GLPJsw/src.c:5:7: warning: missing terminating '"' character [-Winvalid-pp-token]
+        .text");
+             ^
+/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GLPJsw/src.c:6:38: error: expected ';' after top-level asm block
+int main(int c, char *v) { return 0;}
+                                     ^
+                                     ;
+2 warnings and 2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_bf508.dir/src.c.o] Error 1
+make: *** [cmTC_bf508/fast] Error 2
+
+
+Source file was:
+
+extern void json_object_get();
+__asm__(".section .gnu.json_object_get
+	.ascii "Please link against libjson-c instead of libjson"
+	.text");
+int main(int c, char *v) { return 0;}
+
+
+Performing C SOURCE FILE Test BSYMBOLIC_WORKS failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kPIT6s
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8fdd0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8fdd0.dir/build.make CMakeFiles/cmTC_8fdd0.dir/build
+Building C object CMakeFiles/cmTC_8fdd0.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DBSYMBOLIC_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_8fdd0.dir/src.c.o -MF CMakeFiles/cmTC_8fdd0.dir/src.c.o.d -o CMakeFiles/cmTC_8fdd0.dir/src.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kPIT6s/src.c"
+Linking C executable cmTC_8fdd0
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fdd0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8fdd0.dir/src.c.o -o cmTC_8fdd0  -lm -Wl,-Bsymbolic-functions 
+ld: unknown option: -Bsymbolic-functions
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8fdd0] Error 1
+make: *** [cmTC_8fdd0/fast] Error 2
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	
+
+Performing C SOURCE FILE Test VERSION_SCRIPT_WORKS failed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-0lZNdr
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5621c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5621c.dir/build.make CMakeFiles/cmTC_5621c.dir/build
+Building C object CMakeFiles/cmTC_5621c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DVERSION_SCRIPT_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_5621c.dir/src.c.o -MF CMakeFiles/cmTC_5621c.dir/src.c.o.d -o CMakeFiles/cmTC_5621c.dir/src.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-0lZNdr/src.c"
+Linking C executable cmTC_5621c
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5621c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5621c.dir/src.c.o -o cmTC_5621c  -lm -Wl,--version-script,/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/check-version-script.sym 
+clang: error: no such file or directory: 'BD:RESEAU/GestionStock/json-c-build/check-version-script.sym'
+make[1]: *** [cmTC_5621c] Error 1
+make: *** [cmTC_5621c/fast] Error 2
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	
+

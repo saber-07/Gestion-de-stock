@@ -1,0 +1,1017 @@
+The system is: Darwin - 21.2.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/3.25.0/CompilerIdC/CMakeCCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KY168v
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0dca/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d0dca.dir/build.make CMakeFiles/cmTC_d0dca.dir/build
+Building C object CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.25.0/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 763 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6 -dependency-file CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method "-fdebug-compilation-dir=/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KY168v" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.25.0/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.1.6 (clang-1316.0.21.2.5) default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_d0dca
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0dca.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -o cmTC_d0dca 
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cmTC_d0dca -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:55 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KY168v]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0dca/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d0dca.dir/build.make CMakeFiles/cmTC_d0dca.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1   -v -Wl -v -MD -MT CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.25.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2.5)]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 763 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6 -dependency-file CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method "-fdebug-compilation-dir=/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KY168v" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.25.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.1.6 (clang-1316.0.21.2.5) default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_d0dca]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0dca.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -o cmTC_d0dca ]
+  ignore line: [Apple clang version 13.1.6 (clang-1316.0.21.2.5)]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cmTC_d0dca -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [12.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d0dca] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d0dca.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MfeAG6
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cc93a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc93a.dir/build.make CMakeFiles/cmTC_cc93a.dir/build
+Building C object CMakeFiles/cmTC_cc93a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_cc93a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_cc93a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_cc93a.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MfeAG6/CheckIncludeFile.c"
+Linking C executable cmTC_cc93a
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc93a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cc93a.dir/CheckIncludeFile.c.o -o cmTC_cc93a  -lm 
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Ei1SYA
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bbaf4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bbaf4.dir/build.make CMakeFiles/cmTC_bbaf4.dir/build
+Building C object CMakeFiles/cmTC_bbaf4.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_bbaf4.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_bbaf4.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_bbaf4.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Ei1SYA/CheckIncludeFile.c"
+Linking C executable cmTC_bbaf4
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbaf4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bbaf4.dir/CheckIncludeFile.c.o -o cmTC_bbaf4  -lm 
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-v6JkYe
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_655b8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_655b8.dir/build.make CMakeFiles/cmTC_655b8.dir/build
+Building C object CMakeFiles/cmTC_655b8.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_655b8.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_655b8.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_655b8.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-v6JkYe/CheckIncludeFile.c"
+Linking C executable cmTC_655b8
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_655b8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_655b8.dir/CheckIncludeFile.c.o -o cmTC_655b8  -lm 
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-gmZU2e
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bac13/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bac13.dir/build.make CMakeFiles/cmTC_bac13.dir/build
+Building C object CMakeFiles/cmTC_bac13.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_bac13.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_bac13.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_bac13.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-gmZU2e/CheckIncludeFile.c"
+Linking C executable cmTC_bac13
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bac13.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bac13.dir/CheckIncludeFile.c.o -o cmTC_bac13  -lm 
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-HPCYi5
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2cbfe/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2cbfe.dir/build.make CMakeFiles/cmTC_2cbfe.dir/build
+Building C object CMakeFiles/cmTC_2cbfe.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_2cbfe.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2cbfe.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2cbfe.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-HPCYi5/CheckIncludeFile.c"
+Linking C executable cmTC_2cbfe
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cbfe.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2cbfe.dir/CheckIncludeFile.c.o -o cmTC_2cbfe  -lm 
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9yxllM
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d2d35/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d2d35.dir/build.make CMakeFiles/cmTC_d2d35.dir/build
+Building C object CMakeFiles/cmTC_d2d35.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_d2d35.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_d2d35.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d2d35.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9yxllM/CheckIncludeFile.c"
+Linking C executable cmTC_d2d35
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d35.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d2d35.dir/CheckIncludeFile.c.o -o cmTC_d2d35  -lm 
+
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SKXrpJ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e25de/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e25de.dir/build.make CMakeFiles/cmTC_e25de.dir/build
+Building C object CMakeFiles/cmTC_e25de.dir/STDC_HEADERS.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_e25de.dir/STDC_HEADERS.c.o -MF CMakeFiles/cmTC_e25de.dir/STDC_HEADERS.c.o.d -o CMakeFiles/cmTC_e25de.dir/STDC_HEADERS.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SKXrpJ/STDC_HEADERS.c"
+Linking C executable cmTC_e25de
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e25de.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e25de.dir/STDC_HEADERS.c.o -o cmTC_e25de  -lm 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-aovWj5
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3b3a6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3b3a6.dir/build.make CMakeFiles/cmTC_3b3a6.dir/build
+Building C object CMakeFiles/cmTC_3b3a6.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_3b3a6.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3b3a6.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3b3a6.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-aovWj5/CheckIncludeFile.c"
+Linking C executable cmTC_3b3a6
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b3a6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3b3a6.dir/CheckIncludeFile.c.o -o cmTC_3b3a6  -lm 
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-n42LAo
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6773b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6773b.dir/build.make CMakeFiles/cmTC_6773b.dir/build
+Building C object CMakeFiles/cmTC_6773b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_6773b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_6773b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_6773b.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-n42LAo/CheckIncludeFile.c"
+Linking C executable cmTC_6773b
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6773b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6773b.dir/CheckIncludeFile.c.o -o cmTC_6773b  -lm 
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-yhiIES
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_41990/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_41990.dir/build.make CMakeFiles/cmTC_41990.dir/build
+Building C object CMakeFiles/cmTC_41990.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_41990.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_41990.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_41990.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-yhiIES/CheckIncludeFile.c"
+Linking C executable cmTC_41990
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41990.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_41990.dir/CheckIncludeFile.c.o -o cmTC_41990  -lm 
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GFv0Gs
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3271f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3271f.dir/build.make CMakeFiles/cmTC_3271f.dir/build
+Building C object CMakeFiles/cmTC_3271f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_3271f.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3271f.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3271f.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GFv0Gs/CheckIncludeFile.c"
+Linking C executable cmTC_3271f
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3271f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3271f.dir/CheckIncludeFile.c.o -o cmTC_3271f  -lm 
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-uexvVR
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b58cc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b58cc.dir/build.make CMakeFiles/cmTC_b58cc.dir/build
+Building C object CMakeFiles/cmTC_b58cc.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_b58cc.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_b58cc.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_b58cc.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-uexvVR/CheckIncludeFile.c"
+Linking C executable cmTC_b58cc
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b58cc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b58cc.dir/CheckIncludeFile.c.o -o cmTC_b58cc  -lm 
+
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rbp5w2
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ad953/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ad953.dir/build.make CMakeFiles/cmTC_ad953.dir/build
+Building C object CMakeFiles/cmTC_ad953.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_ad953.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_ad953.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_ad953.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rbp5w2/CheckIncludeFile.c"
+Linking C executable cmTC_ad953
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad953.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ad953.dir/CheckIncludeFile.c.o -o cmTC_ad953  -lm 
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-WLVEks
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a3064/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a3064.dir/build.make CMakeFiles/cmTC_a3064.dir/build
+Building C object CMakeFiles/cmTC_a3064.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_a3064.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a3064.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a3064.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-WLVEks/CheckIncludeFile.c"
+Linking C executable cmTC_a3064
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3064.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a3064.dir/CheckIncludeFile.c.o -o cmTC_a3064  -lm 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8UPSuS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6ef5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6ef5.dir/build.make CMakeFiles/cmTC_c6ef5.dir/build
+Building C object CMakeFiles/cmTC_c6ef5.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_c6ef5.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c6ef5.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c6ef5.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8UPSuS/CheckIncludeFile.c"
+Linking C executable cmTC_c6ef5
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6ef5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c6ef5.dir/CheckIncludeFile.c.o -o cmTC_c6ef5  -lm 
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SsxEai
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9ee19/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9ee19.dir/build.make CMakeFiles/cmTC_9ee19.dir/build
+Building C object CMakeFiles/cmTC_9ee19.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_9ee19.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_9ee19.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_9ee19.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SsxEai/CheckIncludeFile.c"
+Linking C executable cmTC_9ee19
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee19.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9ee19.dir/CheckIncludeFile.c.o -o cmTC_9ee19  -lm 
+
+
+
+Determining if the include file sys/cdefs.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kG40zo
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_14c40/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_14c40.dir/build.make CMakeFiles/cmTC_14c40.dir/build
+Building C object CMakeFiles/cmTC_14c40.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_14c40.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_14c40.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_14c40.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kG40zo/CheckIncludeFile.c"
+Linking C executable cmTC_14c40
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14c40.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_14c40.dir/CheckIncludeFile.c.o -o cmTC_14c40  -lm 
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-gkLWZ9
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c4c38/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c4c38.dir/build.make CMakeFiles/cmTC_c4c38.dir/build
+Building C object CMakeFiles/cmTC_c4c38.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_c4c38.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c4c38.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c4c38.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-gkLWZ9/CheckIncludeFile.c"
+Linking C executable cmTC_c4c38
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4c38.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c4c38.dir/CheckIncludeFile.c.o -o cmTC_c4c38  -lm 
+
+
+
+Determining if the include file sys/random.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-V5oBGq
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc720/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dc720.dir/build.make CMakeFiles/cmTC_dc720.dir/build
+Building C object CMakeFiles/cmTC_dc720.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_dc720.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_dc720.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_dc720.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-V5oBGq/CheckIncludeFile.c"
+Linking C executable cmTC_dc720
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc720.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dc720.dir/CheckIncludeFile.c.o -o cmTC_dc720  -lm 
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-W0gOzd
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_63c6c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_63c6c.dir/build.make CMakeFiles/cmTC_63c6c.dir/build
+Building C object CMakeFiles/cmTC_63c6c.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_63c6c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_63c6c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_63c6c.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-W0gOzd/CheckIncludeFile.c"
+Linking C executable cmTC_63c6c
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63c6c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_63c6c.dir/CheckIncludeFile.c.o -o cmTC_63c6c  -lm 
+
+
+
+Determining if the include file xlocale.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-0hMf7c
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a6f7a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a6f7a.dir/build.make CMakeFiles/cmTC_a6f7a.dir/build
+Building C object CMakeFiles/cmTC_a6f7a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_a6f7a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a6f7a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a6f7a.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-0hMf7c/CheckIncludeFile.c"
+Linking C executable cmTC_a6f7a
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6f7a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a6f7a.dir/CheckIncludeFile.c.o -o cmTC_a6f7a  -lm 
+
+
+
+Determining if the INFINITY exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SoiOW8
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a4f95/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a4f95.dir/build.make CMakeFiles/cmTC_a4f95.dir/build
+Building C object CMakeFiles/cmTC_a4f95.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_a4f95.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_a4f95.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a4f95.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SoiOW8/CheckSymbolExists.c"
+Linking C executable cmTC_a4f95
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4f95.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a4f95.dir/CheckSymbolExists.c.o -o cmTC_a4f95  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INFINITY
+  return ((int*)(&INFINITY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isinf exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-UB7IYu
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ae67c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ae67c.dir/build.make CMakeFiles/cmTC_ae67c.dir/build
+Building C object CMakeFiles/cmTC_ae67c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_ae67c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ae67c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ae67c.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-UB7IYu/CheckSymbolExists.c"
+Linking C executable cmTC_ae67c
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae67c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ae67c.dir/CheckSymbolExists.c.o -o cmTC_ae67c  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isnan exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-lnb3P3
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f248c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f248c.dir/build.make CMakeFiles/cmTC_f248c.dir/build
+Building C object CMakeFiles/cmTC_f248c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_f248c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f248c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f248c.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-lnb3P3/CheckSymbolExists.c"
+Linking C executable cmTC_f248c
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f248c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f248c.dir/CheckSymbolExists.c.o -o cmTC_f248c  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nan exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-7KBwND
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a547/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7a547.dir/build.make CMakeFiles/cmTC_7a547.dir/build
+Building C object CMakeFiles/cmTC_7a547.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_7a547.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_7a547.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_7a547.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-7KBwND/CheckSymbolExists.c"
+Linking C executable cmTC_7a547
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a547.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7a547.dir/CheckSymbolExists.c.o -o cmTC_7a547  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nan
+  return ((int*)(&nan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-v7Vvx0
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9a25e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9a25e.dir/build.make CMakeFiles/cmTC_9a25e.dir/build
+Building C object CMakeFiles/cmTC_9a25e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_9a25e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9a25e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9a25e.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-v7Vvx0/CheckSymbolExists.c"
+Linking C executable cmTC_9a25e
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a25e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9a25e.dir/CheckSymbolExists.c.o -o cmTC_9a25e  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-2k8F3E
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d3641/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d3641.dir/build.make CMakeFiles/cmTC_d3641.dir/build
+Building C object CMakeFiles/cmTC_d3641.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_d3641.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_d3641.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d3641.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-2k8F3E/CheckSymbolExists.c"
+Linking C executable cmTC_d3641
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3641.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d3641.dir/CheckSymbolExists.c.o -o cmTC_d3641  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-er1jhE
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_610ad/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_610ad.dir/build.make CMakeFiles/cmTC_610ad.dir/build
+Building C object CMakeFiles/cmTC_610ad.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_610ad.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_610ad.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_610ad.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-er1jhE/CheckSymbolExists.c"
+Linking C executable cmTC_610ad
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_610ad.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_610ad.dir/CheckSymbolExists.c.o -o cmTC_610ad  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vprintf exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8atG8K
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aa1a4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aa1a4.dir/build.make CMakeFiles/cmTC_aa1a4.dir/build
+Building C object CMakeFiles/cmTC_aa1a4.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_aa1a4.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_aa1a4.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_aa1a4.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8atG8K/CheckSymbolExists.c"
+Linking C executable cmTC_aa1a4
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa1a4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_aa1a4.dir/CheckSymbolExists.c.o -o cmTC_aa1a4  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vprintf
+  return ((int*)(&vprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the arc4random exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ypWEuu
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d5e7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1d5e7.dir/build.make CMakeFiles/cmTC_1d5e7.dir/build
+Building C object CMakeFiles/cmTC_1d5e7.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_1d5e7.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1d5e7.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1d5e7.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ypWEuu/CheckSymbolExists.c"
+Linking C executable cmTC_1d5e7
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d5e7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d5e7.dir/CheckSymbolExists.c.o -o cmTC_1d5e7  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the open exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-eS3A73
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7006a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7006a.dir/build.make CMakeFiles/cmTC_7006a.dir/build
+Building C object CMakeFiles/cmTC_7006a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_7006a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_7006a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_7006a.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-eS3A73/CheckSymbolExists.c"
+Linking C executable cmTC_7006a
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7006a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7006a.dir/CheckSymbolExists.c.o -o cmTC_7006a  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realloc exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FFeTIS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_edd45/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_edd45.dir/build.make CMakeFiles/cmTC_edd45.dir/build
+Building C object CMakeFiles/cmTC_edd45.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_edd45.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_edd45.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_edd45.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FFeTIS/CheckSymbolExists.c"
+Linking C executable cmTC_edd45
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd45.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_edd45.dir/CheckSymbolExists.c.o -o cmTC_edd45  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TQ09L3
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d46cb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d46cb.dir/build.make CMakeFiles/cmTC_d46cb.dir/build
+Building C object CMakeFiles/cmTC_d46cb.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_d46cb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_d46cb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d46cb.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TQ09L3/CheckSymbolExists.c"
+Linking C executable cmTC_d46cb
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d46cb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d46cb.dir/CheckSymbolExists.c.o -o cmTC_d46cb  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GwpjNs
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_01d13/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_01d13.dir/build.make CMakeFiles/cmTC_01d13.dir/build
+Building C object CMakeFiles/cmTC_01d13.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_01d13.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_01d13.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_01d13.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GwpjNs/CheckSymbolExists.c"
+Linking C executable cmTC_01d13
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01d13.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_01d13.dir/CheckSymbolExists.c.o -o cmTC_01d13  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-WJutiW
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d95b1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d95b1.dir/build.make CMakeFiles/cmTC_d95b1.dir/build
+Building C object CMakeFiles/cmTC_d95b1.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_d95b1.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_d95b1.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d95b1.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-WJutiW/CheckSymbolExists.c"
+Linking C executable cmTC_d95b1
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d95b1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d95b1.dir/CheckSymbolExists.c.o -o cmTC_d95b1  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strdup exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-vWV8KN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68394/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_68394.dir/build.make CMakeFiles/cmTC_68394.dir/build
+Building C object CMakeFiles/cmTC_68394.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_68394.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_68394.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_68394.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-vWV8KN/CheckSymbolExists.c"
+Linking C executable cmTC_68394
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68394.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_68394.dir/CheckSymbolExists.c.o -o cmTC_68394  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-xMbNeV
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19c60/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_19c60.dir/build.make CMakeFiles/cmTC_19c60.dir/build
+Building C object CMakeFiles/cmTC_19c60.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_19c60.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_19c60.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_19c60.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-xMbNeV/CheckSymbolExists.c"
+Linking C executable cmTC_19c60
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19c60.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_19c60.dir/CheckSymbolExists.c.o -o cmTC_19c60  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsyslog exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Asgst1
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19bb6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_19bb6.dir/build.make CMakeFiles/cmTC_19bb6.dir/build
+Building C object CMakeFiles/cmTC_19bb6.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_19bb6.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_19bb6.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_19bb6.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Asgst1/CheckSymbolExists.c"
+Linking C executable cmTC_19bb6
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19bb6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_19bb6.dir/CheckSymbolExists.c.o -o cmTC_19bb6  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <syslog.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsyslog
+  return ((int*)(&vsyslog))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Og6Vha
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fa3b2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fa3b2.dir/build.make CMakeFiles/cmTC_fa3b2.dir/build
+Building C object CMakeFiles/cmTC_fa3b2.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_fa3b2.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_fa3b2.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_fa3b2.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Og6Vha/CheckSymbolExists.c"
+Linking C executable cmTC_fa3b2
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa3b2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fa3b2.dir/CheckSymbolExists.c.o -o cmTC_fa3b2  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KYbnYC
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_905f1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_905f1.dir/build.make CMakeFiles/cmTC_905f1.dir/build
+Building C object CMakeFiles/cmTC_905f1.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_905f1.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_905f1.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_905f1.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KYbnYC/CheckSymbolExists.c"
+Linking C executable cmTC_905f1
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_905f1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_905f1.dir/CheckSymbolExists.c.o -o cmTC_905f1  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull exist passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FB3Llk
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d059/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1d059.dir/build.make CMakeFiles/cmTC_1d059.dir/build
+Building C object CMakeFiles/cmTC_1d059.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_1d059.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1d059.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1d059.dir/CheckSymbolExists.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FB3Llk/CheckSymbolExists.c"
+Linking C executable cmTC_1d059
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d059.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d059.dir/CheckSymbolExists.c.o -o cmTC_1d059  -lm 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-fdveyx
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8b895/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8b895.dir/build.make CMakeFiles/cmTC_8b895.dir/build
+Building C object CMakeFiles/cmTC_8b895.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_8b895.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8b895.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8b895.dir/CheckIncludeFile.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-fdveyx/CheckIncludeFile.c"
+Linking C executable cmTC_8b895
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b895.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8b895.dir/CheckIncludeFile.c.o -o cmTC_8b895  -lm 
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-OxwtFN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_20047/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_20047.dir/build.make CMakeFiles/cmTC_20047.dir/build
+Building C object CMakeFiles/cmTC_20047.dir/SIZEOF_INT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_20047.dir/SIZEOF_INT.c.o -MF CMakeFiles/cmTC_20047.dir/SIZEOF_INT.c.o.d -o CMakeFiles/cmTC_20047.dir/SIZEOF_INT.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-OxwtFN/SIZEOF_INT.c"
+Linking C executable cmTC_20047
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20047.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_20047.dir/SIZEOF_INT.c.o -o cmTC_20047  -lm 
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-qG8xtK
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a1d4e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1d4e.dir/build.make CMakeFiles/cmTC_a1d4e.dir/build
+Building C object CMakeFiles/cmTC_a1d4e.dir/SIZEOF_INT64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_a1d4e.dir/SIZEOF_INT64_T.c.o -MF CMakeFiles/cmTC_a1d4e.dir/SIZEOF_INT64_T.c.o.d -o CMakeFiles/cmTC_a1d4e.dir/SIZEOF_INT64_T.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-qG8xtK/SIZEOF_INT64_T.c"
+Linking C executable cmTC_a1d4e
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1d4e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a1d4e.dir/SIZEOF_INT64_T.c.o -o cmTC_a1d4e  -lm 
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-LvNMca
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f5d2b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f5d2b.dir/build.make CMakeFiles/cmTC_f5d2b.dir/build
+Building C object CMakeFiles/cmTC_f5d2b.dir/SIZEOF_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_f5d2b.dir/SIZEOF_LONG.c.o -MF CMakeFiles/cmTC_f5d2b.dir/SIZEOF_LONG.c.o.d -o CMakeFiles/cmTC_f5d2b.dir/SIZEOF_LONG.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-LvNMca/SIZEOF_LONG.c"
+Linking C executable cmTC_f5d2b
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d2b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f5d2b.dir/SIZEOF_LONG.c.o -o cmTC_f5d2b  -lm 
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EldvaG
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_35a3e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_35a3e.dir/build.make CMakeFiles/cmTC_35a3e.dir/build
+Building C object CMakeFiles/cmTC_35a3e.dir/SIZEOF_LONG_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_35a3e.dir/SIZEOF_LONG_LONG.c.o -MF CMakeFiles/cmTC_35a3e.dir/SIZEOF_LONG_LONG.c.o.d -o CMakeFiles/cmTC_35a3e.dir/SIZEOF_LONG_LONG.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EldvaG/SIZEOF_LONG_LONG.c"
+Linking C executable cmTC_35a3e
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35a3e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_35a3e.dir/SIZEOF_LONG_LONG.c.o -o cmTC_35a3e  -lm 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-mKYDpY
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_07290/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_07290.dir/build.make CMakeFiles/cmTC_07290.dir/build
+Building C object CMakeFiles/cmTC_07290.dir/SIZEOF_SIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_07290.dir/SIZEOF_SIZE_T.c.o -MF CMakeFiles/cmTC_07290.dir/SIZEOF_SIZE_T.c.o.d -o CMakeFiles/cmTC_07290.dir/SIZEOF_SIZE_T.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-mKYDpY/SIZEOF_SIZE_T.c"
+Linking C executable cmTC_07290
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07290.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_07290.dir/SIZEOF_SIZE_T.c.o -o cmTC_07290  -lm 
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wo56mb
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72a31/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_72a31.dir/build.make CMakeFiles/cmTC_72a31.dir/build
+Building C object CMakeFiles/cmTC_72a31.dir/SIZEOF_SSIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_72a31.dir/SIZEOF_SSIZE_T.c.o -MF CMakeFiles/cmTC_72a31.dir/SIZEOF_SSIZE_T.c.o.d -o CMakeFiles/cmTC_72a31.dir/SIZEOF_SSIZE_T.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wo56mb/SIZEOF_SSIZE_T.c"
+Linking C executable cmTC_72a31
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72a31.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_72a31.dir/SIZEOF_SSIZE_T.c.o -o cmTC_72a31  -lm 
+
+
+
+Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-7agXQh
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1a7b6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1a7b6.dir/build.make CMakeFiles/cmTC_1a7b6.dir/build
+Building C object CMakeFiles/cmTC_1a7b6.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_ATOMIC_BUILTINS -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_1a7b6.dir/src.c.o -MF CMakeFiles/cmTC_1a7b6.dir/src.c.o.d -o CMakeFiles/cmTC_1a7b6.dir/src.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-7agXQh/src.c"
+Linking C executable cmTC_1a7b6
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a7b6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1a7b6.dir/src.c.o -o cmTC_1a7b6  -lm 
+
+
+Source file was:
+int main() { int i, x = 0; i = __sync_add_and_fetch(&x,1); return x; }
+
+Performing C SOURCE FILE Test HAVE___THREAD succeeded with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KfpdE2
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_93c5a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_93c5a.dir/build.make CMakeFiles/cmTC_93c5a.dir/build
+Building C object CMakeFiles/cmTC_93c5a.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE___THREAD -D_GNU_SOURCE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_93c5a.dir/src.c.o -MF CMakeFiles/cmTC_93c5a.dir/src.c.o.d -o CMakeFiles/cmTC_93c5a.dir/src.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KfpdE2/src.c"
+Linking C executable cmTC_93c5a
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93c5a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_93c5a.dir/src.c.o -o cmTC_93c5a  -lm 
+
+
+Source file was:
+__thread int x = 0; int main() { return 0; }
+
+Performing C SOURCE FILE Test REENTRANT_WORKS succeeded with the following output:
+Change Dir: /Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-CS32yW
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e3b4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5e3b4.dir/build.make CMakeFiles/cmTC_5e3b4.dir/build
+Building C object CMakeFiles/cmTC_5e3b4.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DREENTRANT_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -fPIE -MD -MT CMakeFiles/cmTC_5e3b4.dir/src.c.o -MF CMakeFiles/cmTC_5e3b4.dir/src.c.o.d -o CMakeFiles/cmTC_5e3b4.dir/src.c.o -c "/Users/saber07/Desktop/projet BD:RESEAU/GestionStock/json-c-build/CMakeFiles/CMakeScratch/TryCompile-CS32yW/src.c"
+Linking C executable cmTC_5e3b4
+/opt/homebrew/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e3b4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5e3b4.dir/src.c.o -o cmTC_5e3b4  -lm 
+
+
+Source file was:
+
+	/* uClibc toolchains without threading barf when _REENTRANT is defined */
+	#define _REENTRANT 1
+	#include <sys/types.h>
+	int main (void)
+	{
+	  return 0;
+	}
+	
+
